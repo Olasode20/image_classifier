@@ -41,7 +41,8 @@ image-classifier/
 ├── app.py              # Main Streamlit application
 ├── requirements.txt    # Python dependencies
 ├── screenshot.png      # App preview
-└── README.md
+├── README.md
+└── runtimetxt
 ```
 
 ---

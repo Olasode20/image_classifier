@@ -1,10 +1,10 @@
-# 🔍 Image Classifier
+# Image Classifier
 
 A real-time image classification web app powered by **MobileNetV2** trained on ImageNet. Upload any photo and get the model's top three predictions instantly — built with Python, Keras, and Streamlit.
 
 ---
 
-## 🖼️ Demo
+## Demo
 
 > Upload an image → the model scans it → three predictions ranked by confidence, rendered in under a second.
 
@@ -12,7 +12,7 @@ A real-time image classification web app powered by **MobileNetV2** trained on I
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Instant inference** — MobileNetV2 runs lightweight enough to classify in real time directly in the browser
 - **Top-3 predictions** — returns the three most confident labels with confidence scores and visual progress bars
@@ -22,7 +22,7 @@ A real-time image classification web app powered by **MobileNetV2** trained on I
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -34,7 +34,7 @@ A real-time image classification web app powered by **MobileNetV2** trained on I
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 image-classifier/
@@ -47,7 +47,7 @@ image-classifier/
 ---
 
 
-## 📦 Requirements
+## Requirements
 
 ```
 streamlit>=1.30.0
@@ -60,7 +60,7 @@ keras>=2.13.0
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. **Upload** — the user uploads a JPEG or PNG image via the file uploader
 2. **Preprocess** — the image is resized to 224×224 pixels and normalized using MobileNetV2's `preprocess_input`
@@ -74,7 +74,7 @@ MobileNetV2 was designed for efficiency — it achieves strong ImageNet accuracy
 
 ---
 
-## 📊 Model Details
+## Model Details
 
 | Property | Value |
 |---|---|

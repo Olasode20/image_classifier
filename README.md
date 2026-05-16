@@ -50,11 +50,10 @@ image_classifier/
 
 ```
 streamlit>=1.30.0
-opencv-python>=4.8.0
+opencv-python-headless>=4.8.0
 numpy>=1.24.0
 pillow>=10.0.0
-tensorflow>=2.13.0
-keras>=2.13.0
+tensorflow==2.15.1
 ```
 
 ---

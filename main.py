@@ -7,7 +7,6 @@ from keras.applications import MobileNetV2
 from keras.applications.mobilenet_v2 import preprocess_input, decode_predictions
 
 
-# ── Model helpers (unchanged) ─────────────────────────────────────────────────
 
 def load_model():
     try:

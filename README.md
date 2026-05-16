@@ -40,7 +40,6 @@ A real-time image classification web app powered by **MobileNetV2** trained on I
 image_classifier/
 ├── main.py             # Main Streamlit application
 ├── requirements.txt    # Python dependencies
-├── runtime.txt        ← new file
 └── README.md
 ```
 
